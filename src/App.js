@@ -1,12 +1,14 @@
 import './App.css';
-import TodoComponent from "./components/todo/todoComponent";
-import CreateTodoBtn from "./components/todo/createTodoBtn";
+import CreateTodo from "./components/todo/createTodo";
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (
     <div className="App">
-      <TodoComponent/>
-       <CreateTodoBtn/>
+      <header>
+          <div>My todo</div>
+      </header>
+        <CreateTodo/>
     </div>
   );
 }
